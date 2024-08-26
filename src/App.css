@@ -1,0 +1,259 @@
+body {
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  background-color: black;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.creator {
+  display: block;
+  width: 450px;
+  height: 300px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  border: 2px solid white;
+}
+
+.creator-socials {
+  max-width: 150px;
+  max-height: 50px;
+  padding: 5px;
+}
+
+.creator-instagram,
+.creator-X,
+.creator-youtube {
+  width: 40px;
+  height: 40px;
+}
+
+.creator-instagram img,
+.creator-X img,
+.creator-youtube img {
+  width: 40px;
+  height: 40px;
+}
+
+.creator-contents {
+  max-width: 70%;
+  display: block;
+  text-align: left;
+  padding-left: 5%;
+  max-height: 60%;
+  padding-top: 10%;
+}
+
+.showcreators {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.home-creatorverse {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 900px;
+  color: white;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+
+.home-creatorverse button {
+  background-color: rgb(40, 183, 231);
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  font-style: none;
+}
+
+
+
+.home-creatorverse h1 {
+  font-size: 70px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.creator-form {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.form-label {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.8em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 0.5em;
+}
+
+.form-description {
+  font-size: 0.5em;
+  color: #666;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+}
+
+.form-section-title {
+  font-size: 1.5em;
+  margin-top: 2em;
+  color: #333;
+}
+
+.form-subtitle {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.creator-youtube img,
+.creator-X img,
+.creator-instagram img {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5em;
+}
+
+.form-submit {
+  padding: 0.8em 2em;
+  font-size: 1em;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+  background-color: #0056b3;
+}
+
+.creators-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  width: 80%;
+  justify-content: space-evenly;
+}
+
+.creator-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+
+}
+
+.creator-head div span {
+  margin: 5px;
+}
+
+.creator-head div button {
+  width: 40px;
+  height: 30px;
+}
+
+.creator-viewCreator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.creator-viewCreator>div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 40px;
+  max-width: 1200px;
+  max-height: 100%;
+  min-height: 400px;
+  box-sizing: border-box;
+  background-color: rgb(39, 39, 39);
+}
+
+.creator-viewCreator img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.creator-viewCreator h1 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.viewCreator-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.viewCreator-socials div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.viewCreator-socials img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.blueBackground{
+  background-color: blue;
+}
+
+.redBackground{
+  background-color: red;
+}
